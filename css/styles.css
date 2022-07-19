@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 header {
@@ -15,14 +17,10 @@ header nav {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 0;
-    flex: 1;
 }
 
-header nav a {
+a {
     text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
-    margin: 0 10px;
 }
 
 .header-logo {
@@ -32,6 +30,45 @@ header nav a {
     font-weight: bold;
 }
 
-.margin {
-    margin: 0 150px;
+.header-link {
+    margin-right: 20px;
+}
+
+.padding {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.section1 {
+    background-color: #1F2937;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.section1-item {
+    height: 300px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sign-up-btn {
+    margin-top: 10px;
+    background-color: #3882F6;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
 }
