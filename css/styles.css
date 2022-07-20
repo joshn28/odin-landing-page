@@ -41,6 +41,10 @@ footer {
     background-color: #1F2937;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .header-logo {
     margin-right: auto;
     color: #F9FAF8;
@@ -83,10 +87,6 @@ footer {
     padding: 7px 30px;
     border-radius: 5px;
     color: white;
-}
-
-.sign-up-btn:hover {
-    cursor: pointer;
 }
 
 .placeholder {
