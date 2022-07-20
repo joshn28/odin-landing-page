@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -29,6 +31,14 @@ h2 {
     color: #1F2937;
     text-align: center;
     margin: 45px 0;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }
 
 .header-logo {
@@ -135,14 +145,14 @@ h2 {
     font-style: italic;
     color: #1F2937;
     font-size: 36px;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 .quote figcaption {
     align-self: flex-end;
     color: #1F2937;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .sign-up-section {
